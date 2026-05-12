@@ -12,21 +12,25 @@
 
     <style>
         body { font-family: 'Poppins', sans-serif; scroll-behavior: smooth; background-color: #f8f9fa; }
-        .navbar { background: rgba(255, 255, 255, 0.95); box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
-        
-         /* Hero Section dengan warna Oranye */
-        .hero { 
-            background: linear-gradient(rgba(255, 126, 0, 0.8), rgba(255, 80, 0, 0.9)), url('https://images.unsplash.com/photo-1523050853063-bd80e27433fb?auto=format&fit=crop&w=1350&q=80');
-            background-size: cover; 
-            background-position: center; 
-            height: 100vh; 
-            color: white;
-            display: flex; 
-            align-items: center; 
-            justify-content: center; 
-            text-align: center;
-        }
+        .navbar {
+    background-color: rgba(255, 255, 255, 0.9) !important;
+    backdrop-filter: blur(10px); /* Efek kaca buram */
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
 
+        /* Hero Section Aesthetic - Hijau Daun/Zaitun yang Tenang */
+.hero { 
+    background: linear-gradient(rgba(46, 79, 79, 0.7), rgba(44, 51, 51, 0.8)), 
+                url('https://images.unsplash.com/photo-1546410531-bb4caa6b424d?auto=format&fit=crop&w=1350&q=80');
+    background-size: cover; 
+    background-position: center; 
+    height: 100vh; 
+    color: #F8F5E9; /* Putih tulang agar lebih natural */
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    text-align: center;
+}
 
         .section-padding { padding: 80px 0; }
         .btn-custom { padding: 12px 30px; border-radius: 50px; font-weight: 600; transition: 0.3s; }
